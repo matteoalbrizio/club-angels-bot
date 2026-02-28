@@ -6,7 +6,7 @@ from openai import OpenAI
 
 st.set_page_config(page_title="Club Finder", layout="centered")
 
-st.title("Club Investor Finder")
+st.title("Club degli Investitori - Finder")
 st.write("Trova le persone del Club più rilevanti in base alle loro competenze.")
 
 # Carica il database

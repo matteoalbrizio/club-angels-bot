@@ -7,7 +7,8 @@ from openai import OpenAI
 st.set_page_config(page_title="Club Finder", layout="centered")
 
 st.title("Club degli Investitori - Finder")
-st.write("Trova le persone del Club più rilevanti in base alle loro competenze.")
+st.markdown( "<div style='color:#6b7280; font-size:14px; margin-top:-10px;'>Powered by Gamindo</div>", unsafe_allow_html=True )
+st.markdown( "<div style='margin-top:8px;'>Trova le persone del Club più rilevanti in base alle loro competenze.</div>", unsafe_allow_html=True )
 
 # Carica il database
 with open("club_people.json", "r", encoding="utf-8") as f:

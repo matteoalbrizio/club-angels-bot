@@ -45,7 +45,7 @@ if not api_key:
 with st.spinner("Preparazione database (solo la prima volta)..."):
     VECTORS = build_embeddings()
 
-query = st.text_input("Cosa stai cercando? (es: FinTech, SaaS, Energy, Esperti di Formula Uno)")
+query = st.text_input("Cosa stai cercando? (es: Hanno lavorato in Accenture; Fintech; Laureati in ingegneria)")
 
 if query:
     with st.spinner("Sto cercando i profili più rilevanti..."):
